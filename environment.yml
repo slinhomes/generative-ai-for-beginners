@@ -1,0 +1,10 @@
+name: genai-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - openai
+      - python-dotenv
+      - azure-ai-inference
